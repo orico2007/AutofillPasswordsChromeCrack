@@ -58,9 +58,9 @@ def get_data(user):
     return arr
 
 def sendEmail(data):
-    sender = "you@example.com" #here is the email sender
-    password = "FHSH SHSH SHSH HSHS" #here is the secret 2fa pass code
-    receiver = "you@example.com" #here is the email receiver
+    sender = "you@example.com"
+    password = "YOUR 2FA CODE"
+    receiver = "you@example.com"
     code = str(uuid.uuid4())
     half_len = len(code) // 2
     code = code[:half_len]
